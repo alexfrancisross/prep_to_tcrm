@@ -42,8 +42,8 @@ try:
         EdgemartAlias = re.sub(r'[^a-zA-Z0-9=]+', '', df_temp['tcrmdataset'].values[0].strip())
         EdgemartLabel = re.sub(r'[^a-zA-Z0-9=]+', '', df_temp['tcrmdataset'].values[0].strip())
     else:
-        EdgemartLabel = "TableauPrep2"  # dataset name
-        EdgemartAlias = "TableauPrep2"  # dataset alias
+        EdgemartLabel = "TableauPrep"  # dataset name
+        EdgemartAlias = "TableauPrep"  # dataset alias
     if 'tcrmapp' in df_temp:
         EdgemartContainer = re.sub(r'[^a-zA-Z0-9=]+', '', df_temp['tcrmapp'].values[0].strip())
     else:
