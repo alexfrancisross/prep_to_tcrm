@@ -11,13 +11,13 @@ import tempfile
 def prep_to_tcrm(df):
     df_temp=df.copy()
     # Salesforce conn info
-    security_token = "6ae4ST3kFGQEUoE3DisFrs3J"
-    consumer_key = '3MVG9xB_D1giir9oKlQCH3uMIELQE50kPPiANKP3RndPH3v77KL0zwyO._KpS4bqmPICXondVWNDs87EmQHDR'
-    consumer_secret = '4EA67316F88C82F5F32680AD61B3A7DD52A6807E74DD091F0138FDAEE0DD2479'
-    access_token = '6Cel800D3z0000034Z8S8883z000001HwrtULzHb07deKAkGsSJnkAKb0d6o4QmuLZN3bzEg6llOi4qoQa2NDsOiABfIZy1Eahs2knnnODx'
-    sf_username = "arosseatraining@tableaujunkie.com"
-    sf_password = " 3mM9^Ms&"
-    sf_url = "https://login.salesforce.com"
+    security_token = '<INSERT SECURITY TOKEN>'
+    consumer_key = '<INSERT CONSUMER KEY>'
+    consumer_secret = '<INSERT CONSUMER SECRET>'
+    access_token = '<INSERT ACCESS TOKEN>'
+    sf_username = '<INSERT SF USERNAME>'
+    sf_password = '<INSERT SF PASSWORD>'
+    sf_url = 'https://login.salesforce.com'
 
     # set up some variables
     debug = True
